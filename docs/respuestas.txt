@@ -1,0 +1,12 @@
+Respuestas
+
+8.
+GitHub es una especie de front-end para gestionar proyectos utilizando el sistema 
+de control de versiones Git.
+
+10.
+Es una clave que se puede dar a cualquier persona en los sistemas de
+control criptográfico de dos claves. La otra clave sería privada y sólo
+la tendrían los usuarios autorizados.
+
+11.
