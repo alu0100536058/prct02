@@ -9,4 +9,53 @@ Es una clave que se puede dar a cualquier persona en los sistemas de
 control criptográfico de dos claves. La otra clave sería privada y sólo
 la tendrían los usuarios autorizados.
 
-11.
+14.
+Un repositorio remoto es una base donde se almacenan archivos remotamente.
+
+20.
+jothaj@hian:~/661773/prct02 (master) $ git commit -m "Primera confirmación - ejemplo de remotos"
+[master (root-commit) 25379dc] Primera confirmación - ejemplo de remotos
+ 2 files changed, 13 insertions(+)
+ create mode 100644 docs/respuestas.txt
+ create mode 100644 src/test01
+ 
+21.
+ jothaj@hian:~/661773/prct02 (master) $ git log
+commit 25379dcb45e5e2d8f8da371cb4884fa6921cf09e
+Author: OpenShift guest <alu0100536058@ull.edu.es>
+Date:   Thu Oct 31 13:51:59 2013 -0400
+
+    Primera confirmación - ejemplo de remotos
+    
+23.
+jothaj@hian:~/661773/prct02 (master) $ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '192.30.252.131' to the list of known hosts.
+Counting objects: 6, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 620 bytes, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To git@github.com:alu0100536058/prct02.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+24.
+jothaj@hian:~/661773/prct02 (master) $ git remote show origin
+* remote origin
+  Fetch URL: git@github.com:alu0100536058/prct02.git
+  Push  URL: git@github.com:alu0100536058/prct02.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+
+25.
+jothaj@hian:~/661773/prct02 (master) $ git remote -v
+origin  git@github.com:alu0100536058/prct02.git (fetch)
+origin  git@github.com:alu0100536058/prct02.git (push)
+
+26.
+https://github.com/alu0100536058/prct02.git
